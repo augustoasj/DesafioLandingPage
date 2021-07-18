@@ -33,11 +33,6 @@ li{
 }
 
 .section-container-top{   
-    /*height: 800px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;*/
-    height: 100vh; /* vh = view height representa o tamanho do monitor*/
     display: flex; /*ativação do dysplay flex*/
     justify-content: center; /* centralização do conteudo*/
     align-items: center; /*alinhamento centralizado*/
@@ -45,7 +40,10 @@ li{
 
 .bg{
     background-image:url(/assets/images/nelore_topo.png);
+    background-attachment: fixed;
     background-repeat: no-repeat;
+    width: 1920px;
+    height:650px ;
 }
 
 .section-container-one{
