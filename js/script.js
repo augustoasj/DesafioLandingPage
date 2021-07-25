@@ -19,7 +19,7 @@ form.addEventListener('submit', (e) => {
     let conteudo = document.getElementById('conteudo')
 
     let cadastrando = `<h2> Cadastrando </h2>`
-    let concluido = `<h2> Concluido </h2>`
+    let concluido = `<h2> Cadastro Concluido, Eu já te ligo, jóia? </h2>`
     conteudo.innerHTML = cadastrando
 
     setTimeout(() => {
